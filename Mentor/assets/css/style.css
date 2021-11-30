@@ -1656,8 +1656,8 @@ section {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  transition: ease-in-out 0.4s;
+  transition: 0.2s;
+  transition: ease-in-out 0.2s;
   border-radius: 5px;
 }
 .our-values .card-title {
@@ -1676,7 +1676,7 @@ section {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 .our-values .read-more a:hover {
   text-decoration: underline;
@@ -1688,3 +1688,26 @@ section {
   color: #fff;
 }
 
+.get-started-btn {
+  margin-left: 25px;
+  background: #490d35;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 9px 30px 8px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.get-started-btn:hover {
+  background: #8b8b8b;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
