@@ -126,7 +126,7 @@
     })
   });
   $(document).ready(function(){
-    var zindex = 10;
+    var zindex = 2;
     
     $("div.card").click(function(e){
       e.preventDefault();
